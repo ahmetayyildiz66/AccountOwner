@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "AutoMapper/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/6.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "8.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4743,6 +4769,53 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "AccountOwnerServer.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "AccountOwnerServer.Business.Contracts": "1.0.0",
+          "AccountOwnerServer.Common": "1.0.0",
+          "AccountOwnerServer.Common.Contracts": "1.0.0",
+          "AccountOwnerServer.Data": "1.0.0",
+          "AccountOwnerServer.Data.Contracts": "1.0.0",
+          "AccountOwnerServer.Data.Entities": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1"
+        },
+        "compile": {
+          "bin/placeholder/AccountOwnerServer.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountOwnerServer.Business.dll": {}
+        }
+      },
+      "AccountOwnerServer.Business.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "AccountOwnerServer.Common": "1.0.0",
+          "AccountOwnerServer.Data.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountOwnerServer.Business.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountOwnerServer.Business.Contracts.dll": {}
+        }
+      },
+      "AccountOwnerServer.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "AccountOwnerServer.Data.Entities": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1"
+        },
+        "compile": {
+          "bin/placeholder/AccountOwnerServer.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountOwnerServer.Common.dll": {}
+        }
+      },
       "AccountOwnerServer.Common.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -4809,6 +4882,36 @@
     }
   },
   "libraries": {
+    "AutoMapper/8.1.1": {
+      "sha512": "GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "type": "package",
+      "path": "automapper/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.8.1.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/6.1.1": {
+      "sha512": "MPMgL6JGEH2Egmgh3+tw2UVX05ph8As7YtYWzt2ZDCc0STHGG5EsV3UMWH/g4aHaN1q20Bbc0PTMy3I0PwgBGQ==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/6.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -13074,6 +13177,21 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "AccountOwnerServer.Business/1.0.0": {
+      "type": "project",
+      "path": "../AccountOwnerServer.Business/AccountOwnerServer.Business.csproj",
+      "msbuildProject": "../AccountOwnerServer.Business/AccountOwnerServer.Business.csproj"
+    },
+    "AccountOwnerServer.Business.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../AccountOwnerServer.Business.Contracts/AccountOwnerServer.Business.Contracts.csproj",
+      "msbuildProject": "../AccountOwnerServer.Business.Contracts/AccountOwnerServer.Business.Contracts.csproj"
+    },
+    "AccountOwnerServer.Common/1.0.0": {
+      "type": "project",
+      "path": "../AccountOwnerServer.Common/AccountOwnerServer.Common.csproj",
+      "msbuildProject": "../AccountOwnerServer.Common/AccountOwnerServer.Common.csproj"
+    },
     "AccountOwnerServer.Common.Contracts/1.0.0": {
       "type": "project",
       "path": "../AccountOwnerServer.Common.Contracts/AccountOwnerServer.Common.Contracts.csproj",
@@ -13102,8 +13220,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "AccountOwnerServer.Business >= 1.0.0",
+      "AccountOwnerServer.Business.Contracts >= 1.0.0",
+      "AccountOwnerServer.Common >= 1.0.0",
       "AccountOwnerServer.Common.Contracts >= 1.0.0",
       "AccountOwnerServer.Data >= 1.0.0",
+      "AccountOwnerServer.Data.Contracts >= 1.0.0",
+      "AccountOwnerServer.Data.Entities >= 1.0.0",
       "AccountOwnerServer.Logging >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
@@ -13142,8 +13265,23 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Business.Contracts\\AccountOwnerServer.Business.Contracts.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Business.Contracts\\AccountOwnerServer.Business.Contracts.csproj"
+            },
+            "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Business\\AccountOwnerServer.Business.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Business\\AccountOwnerServer.Business.csproj"
+            },
             "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Common.Contracts\\AccountOwnerServer.Common.Contracts.csproj": {
               "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Common.Contracts\\AccountOwnerServer.Common.Contracts.csproj"
+            },
+            "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Common\\AccountOwnerServer.Common.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Common\\AccountOwnerServer.Common.csproj"
+            },
+            "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Data.Contracts\\AccountOwnerServer.Data.Contracts.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Data.Contracts\\AccountOwnerServer.Data.Contracts.csproj"
+            },
+            "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Data.Entities\\AccountOwnerServer.Data.Entities.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Data.Entities\\AccountOwnerServer.Data.Entities.csproj"
             },
             "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Data\\AccountOwnerServer.Data.csproj": {
               "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AccountOwnerServer\\AccountOwnerServer.Data\\AccountOwnerServer.Data.csproj"

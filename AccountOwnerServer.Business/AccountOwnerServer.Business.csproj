@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountOwnerServer.Business.Contracts\AccountOwnerServer.Business.Contracts.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Common.Contracts\AccountOwnerServer.Common.Contracts.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Common\AccountOwnerServer.Common.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Data.Contracts\AccountOwnerServer.Data.Contracts.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Data.Entities\AccountOwnerServer.Data.Entities.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Data\AccountOwnerServer.Data.csproj" />
+  </ItemGroup>
+
+</Project>

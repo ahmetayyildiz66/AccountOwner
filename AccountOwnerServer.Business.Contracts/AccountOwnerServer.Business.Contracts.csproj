@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountOwnerServer.Common\AccountOwnerServer.Common.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Data.Entities\AccountOwnerServer.Data.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

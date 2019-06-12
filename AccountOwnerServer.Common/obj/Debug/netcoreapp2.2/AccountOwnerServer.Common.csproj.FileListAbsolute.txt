@@ -1,0 +1,11 @@
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.deps.json
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\bin\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\bin\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.csproj.CopyComplete

@@ -33,7 +33,13 @@ namespace AccountOwnerServer.Web
 
             services.ConfigureSqlContext(Configuration);
 
+            services.ConfigureEngineWithInterface();
+
             services.ConfigureRepositoryWrapper();
+
+            services.ConfigureEngines();
+
+            services.ConfigureAutoMapper();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

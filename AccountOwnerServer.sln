@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Web", "AccountOwnerServer.Web\AccountOwnerServer.Web.csproj", "{52019CDB-EE5C-4E66-BC7D-53EDD5D601B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountOwnerServer.Web", "AccountOwnerServer.Web\AccountOwnerServer.Web.csproj", "{52019CDB-EE5C-4E66-BC7D-53EDD5D601B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Common.Contracts", "AccountOwnerServer.Common.Contracts\AccountOwnerServer.Common.Contracts.csproj", "{6173A043-FE5D-4ECA-91C4-EDD711554AFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountOwnerServer.Common.Contracts", "AccountOwnerServer.Common.Contracts\AccountOwnerServer.Common.Contracts.csproj", "{6173A043-FE5D-4ECA-91C4-EDD711554AFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Logging", "AccountOwnerServer.Logging\AccountOwnerServer.Logging.csproj", "{8737DC9B-35B5-4370-9C89-9495D7266918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountOwnerServer.Logging", "AccountOwnerServer.Logging\AccountOwnerServer.Logging.csproj", "{8737DC9B-35B5-4370-9C89-9495D7266918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Data.Entities", "AccountOwnerServer.Data.Entities\AccountOwnerServer.Data.Entities.csproj", "{A9BAFDE6-9A7D-4A45-863B-08E7F0F347F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountOwnerServer.Data.Entities", "AccountOwnerServer.Data.Entities\AccountOwnerServer.Data.Entities.csproj", "{A9BAFDE6-9A7D-4A45-863B-08E7F0F347F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Data", "AccountOwnerServer.Data\AccountOwnerServer.Data.csproj", "{3DB5CF95-C663-4EDB-AFAA-BB2651D147FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountOwnerServer.Data", "AccountOwnerServer.Data\AccountOwnerServer.Data.csproj", "{3DB5CF95-C663-4EDB-AFAA-BB2651D147FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Data.Contracts", "AccountOwnerServer.Data.Contracts\AccountOwnerServer.Data.Contracts.csproj", "{EBCDAACD-C9BD-4F5E-8452-0A36C3D87F8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountOwnerServer.Data.Contracts", "AccountOwnerServer.Data.Contracts\AccountOwnerServer.Data.Contracts.csproj", "{EBCDAACD-C9BD-4F5E-8452-0A36C3D87F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Business.Contracts", "AccountOwnerServer.Business.Contracts\AccountOwnerServer.Business.Contracts.csproj", "{79B47C1C-9CE6-4595-A35A-D1B1C4BC7EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Business", "AccountOwnerServer.Business\AccountOwnerServer.Business.csproj", "{8B07E54D-8541-49F4-B78C-41671930C19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountOwnerServer.Common", "AccountOwnerServer.Common\AccountOwnerServer.Common.csproj", "{D6977587-9A06-41DD-BA09-AEE17245FD8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{EBCDAACD-C9BD-4F5E-8452-0A36C3D87F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBCDAACD-C9BD-4F5E-8452-0A36C3D87F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBCDAACD-C9BD-4F5E-8452-0A36C3D87F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B47C1C-9CE6-4595-A35A-D1B1C4BC7EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B47C1C-9CE6-4595-A35A-D1B1C4BC7EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B47C1C-9CE6-4595-A35A-D1B1C4BC7EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B47C1C-9CE6-4595-A35A-D1B1C4BC7EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B07E54D-8541-49F4-B78C-41671930C19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B07E54D-8541-49F4-B78C-41671930C19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B07E54D-8541-49F4-B78C-41671930C19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B07E54D-8541-49F4-B78C-41671930C19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6977587-9A06-41DD-BA09-AEE17245FD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6977587-9A06-41DD-BA09-AEE17245FD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6977587-9A06-41DD-BA09-AEE17245FD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6977587-9A06-41DD-BA09-AEE17245FD8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

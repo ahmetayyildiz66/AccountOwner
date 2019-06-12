@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "ff4f63fccc96b88e8f12823eb7571cebe0639236"
+    "signature": "77110116dc9f25ba55dfe381502342e05c76e443"
   },
   "compilationOptions": {
     "defines": [
@@ -24,8 +24,13 @@
     ".NETCoreApp,Version=v2.2": {
       "AccountOwnerServer.Web/1.0.0": {
         "dependencies": {
+          "AccountOwnerServer.Business": "1.0.0",
+          "AccountOwnerServer.Business.Contracts": "1.0.0",
+          "AccountOwnerServer.Common": "1.0.0",
           "AccountOwnerServer.Common.Contracts": "1.0.0",
           "AccountOwnerServer.Data": "1.0.0",
+          "AccountOwnerServer.Data.Contracts": "1.0.0",
+          "AccountOwnerServer.Data.Entities": "1.0.0",
           "AccountOwnerServer.Logging": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
@@ -38,6 +43,36 @@
         },
         "compile": {
           "AccountOwnerServer.Web.dll": {}
+        }
+      },
+      "AutoMapper/8.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/6.1.1": {
+        "dependencies": {
+          "AutoMapper": "8.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "6.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -668,6 +703,47 @@
           "System.Reflection.Extensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "AccountOwnerServer.Business/1.0.0": {
+        "dependencies": {
+          "AccountOwnerServer.Business.Contracts": "1.0.0",
+          "AccountOwnerServer.Common": "1.0.0",
+          "AccountOwnerServer.Common.Contracts": "1.0.0",
+          "AccountOwnerServer.Data": "1.0.0",
+          "AccountOwnerServer.Data.Contracts": "1.0.0",
+          "AccountOwnerServer.Data.Entities": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1"
+        },
+        "runtime": {
+          "AccountOwnerServer.Business.dll": {}
+        },
+        "compile": {
+          "AccountOwnerServer.Business.dll": {}
+        }
+      },
+      "AccountOwnerServer.Business.Contracts/1.0.0": {
+        "dependencies": {
+          "AccountOwnerServer.Common": "1.0.0",
+          "AccountOwnerServer.Data.Entities": "1.0.0"
+        },
+        "runtime": {
+          "AccountOwnerServer.Business.Contracts.dll": {}
+        },
+        "compile": {
+          "AccountOwnerServer.Business.Contracts.dll": {}
+        }
+      },
+      "AccountOwnerServer.Common/1.0.0": {
+        "dependencies": {
+          "AccountOwnerServer.Data.Entities": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.1"
+        },
+        "runtime": {
+          "AccountOwnerServer.Common.dll": {}
+        },
+        "compile": {
+          "AccountOwnerServer.Common.dll": {}
         }
       },
       "AccountOwnerServer.Common.Contracts/1.0.0": {
@@ -3647,6 +3723,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "path": "automapper/8.1.1",
+      "hashPath": "automapper.8.1.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MPMgL6JGEH2Egmgh3+tw2UVX05ph8As7YtYWzt2ZDCc0STHGG5EsV3UMWH/g4aHaN1q20Bbc0PTMy3I0PwgBGQ==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/6.1.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3905,6 +3995,21 @@
       "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
+    },
+    "AccountOwnerServer.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountOwnerServer.Business.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountOwnerServer.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "AccountOwnerServer.Common.Contracts/1.0.0": {
       "type": "project",

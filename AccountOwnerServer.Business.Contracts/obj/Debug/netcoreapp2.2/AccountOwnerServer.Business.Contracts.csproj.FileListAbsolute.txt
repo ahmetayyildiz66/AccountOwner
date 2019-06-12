@@ -1,0 +1,14 @@
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.deps.json
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.csprojAssemblyReference.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.csproj.CopyComplete
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Business.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Business.Contracts.pdb

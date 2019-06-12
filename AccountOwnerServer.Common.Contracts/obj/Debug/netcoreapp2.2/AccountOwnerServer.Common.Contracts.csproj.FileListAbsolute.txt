@@ -1,7 +1,6 @@
 C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.deps.json
 C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.dll
 C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common.Contracts\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.pdb
-C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.csprojAssemblyReference.cache
 C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.AssemblyInfoInputs.cache
 C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Common.Contracts\obj\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.AssemblyInfo.cs

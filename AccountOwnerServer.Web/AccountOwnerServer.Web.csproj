@@ -21,7 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountOwnerServer.Business.Contracts\AccountOwnerServer.Business.Contracts.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Business\AccountOwnerServer.Business.csproj" />
     <ProjectReference Include="..\AccountOwnerServer.Common.Contracts\AccountOwnerServer.Common.Contracts.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Common\AccountOwnerServer.Common.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Data.Contracts\AccountOwnerServer.Data.Contracts.csproj" />
+    <ProjectReference Include="..\AccountOwnerServer.Data.Entities\AccountOwnerServer.Data.Entities.csproj" />
     <ProjectReference Include="..\AccountOwnerServer.Data\AccountOwnerServer.Data.csproj" />
     <ProjectReference Include="..\AccountOwnerServer.Logging\AccountOwnerServer.Logging.csproj" />
   </ItemGroup>

@@ -8,3 +8,6 @@
 2019-06-12 02:46:53.4389 ERROR Here is error message from our values controller.
 2019-06-12 04:01:27.6361 INFO Returned all owners from database
 2019-06-12 04:02:51.1866 INFO Returned all owners from database
+2019-06-12 17:14:09.5000 INFO Returned all owners from database
+2019-06-12 17:14:40.3899 INFO Returned owner with id: f98e4d74-0f68-4aac-89fd-047f1aaca6b6
+2019-06-12 17:15:22.5254 INFO Returned owner with id: f98e4d74-0f68-4aac-89fd-047f1aaca6b6
