@@ -1,0 +1,12 @@
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\obj\Debug\netcoreapp2.2\AccountOwnerServer.Logging.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\obj\Debug\netcoreapp2.2\AccountOwnerServer.Logging.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\obj\Debug\netcoreapp2.2\AccountOwnerServer.Logging.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\bin\Debug\netcoreapp2.2\AccountOwnerServer.Logging.deps.json
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\bin\Debug\netcoreapp2.2\AccountOwnerServer.Logging.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\bin\Debug\netcoreapp2.2\AccountOwnerServer.Logging.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\bin\Debug\netcoreapp2.2\AccountOwnerServer.Common.Contracts.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\obj\Debug\netcoreapp2.2\AccountOwnerServer.Logging.csprojAssemblyReference.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\obj\Debug\netcoreapp2.2\AccountOwnerServer.Logging.csproj.CopyComplete
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\obj\Debug\netcoreapp2.2\AccountOwnerServer.Logging.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Logging\obj\Debug\netcoreapp2.2\AccountOwnerServer.Logging.pdb

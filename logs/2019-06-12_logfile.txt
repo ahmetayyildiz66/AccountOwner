@@ -1,0 +1,10 @@
+2019-06-12 02:46:53.1084 INFO Here is info message from our values controller.
+2019-06-12 02:46:53.1765 DEBUG Here is debug message from our values controller.
+2019-06-12 02:46:53.1905 WARN Here is warn message from our values controller.
+2019-06-12 02:46:53.2025 ERROR Here is error message from our values controller.
+2019-06-12 02:46:53.4065 INFO Here is info message from our values controller.
+2019-06-12 02:46:53.4178 DEBUG Here is debug message from our values controller.
+2019-06-12 02:46:53.4178 WARN Here is warn message from our values controller.
+2019-06-12 02:46:53.4389 ERROR Here is error message from our values controller.
+2019-06-12 04:01:27.6361 INFO Returned all owners from database
+2019-06-12 04:02:51.1866 INFO Returned all owners from database

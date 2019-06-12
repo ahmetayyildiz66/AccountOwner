@@ -1,0 +1,8 @@
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\bin\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.deps.json
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\bin\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\bin\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.pdb
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\obj\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\obj\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\obj\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\obj\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.dll
+C:\Users\MONSTER\source\repos\AccountOwnerServer\AccountOwnerServer.Data.Entities\obj\Debug\netcoreapp2.2\AccountOwnerServer.Data.Entities.pdb
